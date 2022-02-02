@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0px;
+}
+
+:root {
+    --primary-color: #06b6d4;
+    --gray-color: #4b5563;
+    --off-white: #d4d4d4;
+
+}
+
+/**Spaces**/
+.margin-md{
+    margin:2rem;
+}
+
+/*links*/
+.container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+}
+
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+
+}
+
+hr {
+    margin: 2rem 0rem;
+}
+
+/*Lists*/
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/*Nav*/
+.navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .nav-brand {
+    font-weight: bolder;
+    font-size: 1.2rem;
+
+}
+
+.navigation .link {
+    color: white;
+}
+
+.navigation .link-active {
+    font-weight: bolder;
+
+}
+
+/*Header*/
+.hero {
+    padding: 2rem;
+    padding-top: 5rem;
+}
+
+.hero .Hero-img {
+    max-width: 450px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading {
+    text-align: center;
+    padding: 1rem;
+    color: var(--gray-color);
+    text-align: justify;
+}
+
+.hero .hero-heading .heading-inverted {
+    color: var(--primary-color);
+}
+
+/**Section**/
+.section{
+    padding: 2rem;
+}
+.section h1 {
+    text-align: center;
+    
+}
+.ow{
+    background-color: var(--off-white);
+}
+
+/** Footer **/
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer ul{
+    padding-inline-start: 0rem;
+}
+
+/**blog**/
+.blimg{
+    max-width: 350px;
+    text-align: center;
+}
