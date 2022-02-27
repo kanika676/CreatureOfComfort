@@ -151,3 +151,34 @@ hr {
     max-width: 350px;
     text-align: center;
 }
+
+/*styling for STalk*/
+.textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 80%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+.output{
+box-sizing: border-box;
+width: 80%;
+min-height: 10vh;
+max-height: 20vh;
+overflow: scroll;
+border: 1px solid var(--off-white);
+}
+
+.btn-translate{
+    display: block;
+  width: 30%;
+  border: none;
+  margin-top: 3rem;
+  background-color: var(--primary-color);
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
