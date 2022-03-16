@@ -6,7 +6,7 @@ body {
 }
 
 :root {
-    --primary-color: #06b6d4;
+    --primary-color:#365314;
     --gray-color: #4b5563;
     --off-white: #d4d4d4;
 
@@ -182,3 +182,4 @@ border: 1px solid var(--off-white);
   cursor: pointer;
   text-align: center;
 }
+
